@@ -111,3 +111,7 @@ kubectl top pod --all-namespaces
 # eppudaite pods lo edaina change (create/delete/status change) jarigithe, adi live ga screen meeda print chestundi.
 # Aapadaniki: Ctrl+C నొక్కండి
 kubectl get pods --watch
+
+
+
+kubectl run curl-test --image=curlimages/curl -i --tty --rm --restart=Never -- sh
